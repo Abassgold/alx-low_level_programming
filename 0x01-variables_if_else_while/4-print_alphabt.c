@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (letter == 'e')
 		{
-			etter++;
+			letter++;
 		}
 		else if (letter == 'q')
 		{
