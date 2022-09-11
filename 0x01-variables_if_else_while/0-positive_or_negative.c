@@ -5,7 +5,7 @@
 #include <time.h>
 
 /**
-*main - Entry point, positive or negative, print sign of random number 
+*main - Entry point, positive or negative, print sign of random number
 *@void: Empty parameter list for main
 *Decription: positive, zero and negative values
 *Return: zero for success
@@ -32,4 +32,3 @@ int main(void)
 	}
 	return (0);
 }
-
