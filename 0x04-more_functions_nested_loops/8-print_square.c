@@ -8,16 +8,16 @@
 
 void print_square(int size)
 {
-	int x, y;
+	int i, j;
 
-	for (y = 0; y < size; y++)
+	for (i = 0; i < size; i++)
 	{
-		for (x = 0; x < size; x++)
-			{
-				_putchar('#');
-			}
-		_putchar('\n');
+		for (j = 0; j < size; j++)
+		{
+			_putchar(35);
+		}
+		if (i != size - 1)
+			_putchar('\n');
 	}
-	if (size < 1)
-		_putchar('\n');
+	_putchar('\n');
 }
